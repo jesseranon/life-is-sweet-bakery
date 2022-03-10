@@ -90,7 +90,7 @@
 							<!-- Content -->
 								<section id="content">
 									<h3>Form</h3>
-									<form name="contact" netlify>
+									<form name="contact" method="POST" data-netlify="true">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-small">
 												<input type="text" name="name" id="name" value="" placeholder="Name" />
@@ -107,14 +107,6 @@
 													<option value="1">Custom Order</option>
 													<option value="1">Special Event</option>
 												</select>
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="checkbox" id="copy" name="copy">
-												<label for="copy">Email me a copy of this message</label>
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="checkbox" id="human" name="human" checked>
-												<label for="human">I am a human and not a robot</label>
 											</div>
 											<div class="col-12">
 												<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
